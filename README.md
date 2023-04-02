@@ -7,7 +7,7 @@ pastiin udah terinstal composer yaw, abis tu ketikan ini diterminal cscode:
 
 bikin database baru di xampp, misalnya db_arsip
 
-buka file .env.example, terus cari DB_DATABASE= (di isi pake nama database yang mau dibikin, dalam hal ini namanya db_arsip)
+buka file .env.example, copy file itu dengan nama .env, terus cari DB_DATABASE= (di isi pake nama database yang mau dibikin, dalam hal ini namanya db_arsip)
 > php artisan migrate
 
 terakhir, jalanin command ini di terminal vscode
